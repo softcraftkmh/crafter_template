@@ -6,12 +6,8 @@
 		"dev": "next dev",
 		"build": "next build",
 		"start": "next start",
-		"pretty-quick": "pretty-quick"
-	},
-	"husky": {
-		"hooks": {
-			"pre-commit": "pretty-quick --staged"
-		}
+		"pretty-quick": "pretty-quick --staged",
+		"prepare": "husky install"
 	},
 	"dependencies": {
 		"date-fns": "^2.21.2",
