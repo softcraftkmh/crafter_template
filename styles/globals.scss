@@ -5,9 +5,11 @@ body {
   font-family: "Cabin", sans-serif;
 }
 
+
 html {
   font-size: 62.5%;
   background-color: #f4f4f4;
+  box-sizing: border-box;
 
   @media (max-width: 1200px) {
     font-size: 60%;
@@ -29,12 +31,12 @@ html {
   }
 }
 
-body {
-  font-size: 1.6rem;
+*, *:before, *:after {
+  box-sizing: inherit;
 }
 
-* {
-  box-sizing: border-box;
+body {
+  font-size: 1.6rem;
 }
 
 a {
