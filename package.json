@@ -27,7 +27,6 @@
 		"rxjs": "^7.0.0",
 		"sass": "^1.32.12",
 		"swr": "^0.5.6",
-		"universal-rxjs-ajax": "^2.0.4",
 		"yup": "^0.32.9"
 	},
 	"devDependencies": {
