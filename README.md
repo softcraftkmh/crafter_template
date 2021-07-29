@@ -24,13 +24,17 @@ To run the development server.
 
 -   Framer Motion
 
-### Recommended Guideline
+## Recommended Guideline
 
 -   CSS Grid
 -   Typescript
 -   React Functional Component
 
-### Notice
+## Notice
 
 -   Do not forget to check for the SEO tags.
 -   Prettier is run with the husky when code is commited.
+
+## TODO
+
+-   Storybook
